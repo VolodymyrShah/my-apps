@@ -1,6 +1,6 @@
 import React from "react";
 import CarouselComponent from "../components/CarouselComponent";
-import { Button, Card, CardImg, Container } from "react-bootstrap";
+import { Button, Card } from "react-bootstrap";
 const cardInfo = [
   {
     img: "https://img.freepik.com/free-vector/teamwork-of-tiny-people-with-gears-and-cogwheels-team-of-partners-working-on-upgrade-repair-improving-skills-and-client-service-flat-vector-illustration-business-organization-cooperation-concept_74855-20950.jpg?w=360",

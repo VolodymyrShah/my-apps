@@ -1,5 +1,5 @@
 import React from "react";
-import Tab, { Container } from "react-bootstrap/Tab";
+import Tab from "react-bootstrap/Tab";
 import { Col, Nav, Row } from "react-bootstrap";
 
 export default function About() {
@@ -31,7 +31,6 @@ export default function About() {
             <Tab.Content>
               
               <Tab.Pane eventKey="first">
-                
                 <img
                   className="d-block w-100"
                   src="https://i.pinimg.com/originals/aa/f0/69/aaf069dc6de7618a63de784b70ad4370.jpg"
