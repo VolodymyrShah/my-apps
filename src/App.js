@@ -3,9 +3,10 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contacts from "./pages/Contacts";
-import Blog from "./pages/Blogs";
+import Blogs from "./pages/Blogs";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
+
 function App() {
   return (
     <div>
@@ -16,7 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contacts" element={<Contacts />} />
-          <Route path="/blogs" element={<Blog />} />
+          <Route path="/blogs" element={<Blogs />} />
         </Routes>
       </Router>
       </Container> 

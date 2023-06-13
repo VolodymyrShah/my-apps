@@ -3,8 +3,9 @@ import { Col, Row, Card, ListGroup } from "react-bootstrap";
 
 export default function Blogs() {
   return (
-    <div>
-      <Row>
+    <>
+    <div class="m-5">
+    <Row >
         <Col md="9">
           <div className="d-flex align-items-center me-5">
             <div className="flex-shrink-0">
@@ -68,6 +69,7 @@ export default function Blogs() {
           </Card>
         </Col>
       </Row>
-    </div>
+    </div></>
   );
 }
+
